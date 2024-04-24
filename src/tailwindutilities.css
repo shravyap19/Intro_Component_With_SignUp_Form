@@ -1,0 +1,35 @@
+@layer components {
+  .container {
+    @apply grid grid-cols-2 h-4/5 p-10;
+  }
+  .text-div {
+    @apply p-2 border-2 border-black w-2/3 ml-48 mt-28;
+  }
+  .main-text {
+    @apply font-bold text-white text-4xl mb-4;
+  }
+  .description {
+    @apply text-white text-left text-sm;
+  }
+  .plan-details {
+    @apply w-full bg-custom-plan-details-color text-white text-xs h-10 rounded-md grid place-items-center shadow-xl;
+  }
+  .signUp {
+    @apply w-8/12;
+  }
+  .sign-up-form {
+    @apply bg-white mt-3 rounded-lg p-7 shadow-xl;
+  }
+  .input-fields {
+    @apply w-full rounded-sm my-2 h-10 border border-black bg-gray-50;
+  }
+  .free-tial {
+    @apply w-full bg-custom-free-trial-button-color h-10 mt-5 rounded-sm text-xs text-white;
+  }
+  .conditons {
+    @apply text-xs2 text-gray-400 text-center;
+  }
+  .terms-and-services {
+    @apply text-red-600;
+  }
+}

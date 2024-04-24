@@ -1,0 +1,7 @@
+#root {
+  @apply w-screen h-screen;
+  background-image: url("/public/bg-intro-desktop.png");
+  background-color: #ff7778;
+  display: grid;
+  place-items: center;
+}
